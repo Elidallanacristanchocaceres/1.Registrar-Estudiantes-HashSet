@@ -29,5 +29,16 @@ public class registroestudiante {
             System.out.println("- " + estudiante);
         }
 
+        // 4. Verificar si un estudiante está en la lista
+        System.out.print("\nIngrese el nombre del estudiante a buscar: ");
+        String nombreBuscado = scanner.nextLine();
+        if (estudiantes.contains(nombreBuscado)) {
+            System.out.println("✅ " + nombreBuscado + " está en la lista.");
+        } else {
+            System.out.println("❌ " + nombreBuscado + " no está registrado.");
+        }
+
+        scanner.close();
+
     }
 }
