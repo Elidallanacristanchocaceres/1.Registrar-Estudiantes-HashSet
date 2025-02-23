@@ -23,5 +23,11 @@ public class registroestudiante {
             }
         }
 
+        // 3.mostrar la lista
+        System.out.println("\nLista de estudiantes registrados:");
+        for (String estudiante : estudiantes) {
+            System.out.println("- " + estudiante);
+        }
+
     }
 }
