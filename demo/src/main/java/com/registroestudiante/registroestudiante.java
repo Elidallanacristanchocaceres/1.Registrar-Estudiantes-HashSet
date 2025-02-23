@@ -9,9 +9,19 @@ public class registroestudiante {
         Scanner scanner = new Scanner(System.in);
         Set<String> estudiantes = new HashSet<>();
 
-        // 1. Pedir la cantidad de estudiantes
+        // 1.cantidad de estudiantes
         System.out.print("Cuantos estudiantes quieres registrar: ");
         int cantidad = scanner.nextInt();
-        scanner.nextLine(); // Limpiar el buffer
+        scanner.nextLine(); 
+
+        // 2.solicitar nombres
+        for (int i = 0; i < cantidad; i++) {
+            System.out.print("Ingrese el nombre del estudiante " + (i + 1) + ": ");
+            String nombre = scanner.nextLine();
+            if (!estudiantes.add(nombre)) {
+                System.out.println("⚠ El estudiante '" + nombre + "' ya está registrado.");
+            }
+        }
+
     }
 }
