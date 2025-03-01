@@ -57,3 +57,10 @@ Permite buscar un estudiante en la lista.
 - Se debe ingresar un número válido para la cantidad de estudiantes.
 
 - Los nombres ingresados deben evitar espacios innecesarios.
+____
+### 📬 Contacto
+- 📧 Correo electrónico: cristanchodayana062017@gmail.com
+
+- 💼 LinkedIn: [Elidallana Cristancho Caceres](https://www.linkedin.com/in/elidallanacristancho/)
+
+¡Gracias por ser parte de esta aventura! 🚀✨
